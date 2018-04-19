@@ -8,7 +8,8 @@ module.exports = {
   },
   plugins: [
     'jsdoc',
-    'node'
+    'node',
+    'html'
   ],
   settings: {
     'html/html-extensions': ['.html', '.ejs']
