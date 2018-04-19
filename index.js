@@ -2,14 +2,18 @@ module.exports = {
   extends: [
     'eslint-config-airbnb',
   ].map(require.resolve),
-  'env': {
+  env: {
     'es6': true,
     'node': true
   },
-  'settings': {
+  plugins: [
+    'jsdoc',
+    'node'
+  ],
+  settings: {
     'html/html-extensions': ['.html', '.ejs']
   },
-  'globals': {
+  globals: {
     'document': false,
     'navigator': false,
     'window': false,
@@ -35,7 +39,7 @@ module.exports = {
     'Prism': true,
     'Vivus': true
   },
-  'rules': {
+  rules: {
     'jsdoc/check-param-names': 1,
     'jsdoc/check-tag-names': 1,
     'jsdoc/check-types': 1,
