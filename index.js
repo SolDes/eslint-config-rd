@@ -40,7 +40,7 @@ module.exports = {
     'Vivus': true
   },
   rules: {
-    'comma-dangle': 'never',
+    'comma-dangle': ['error', 'never'],
     'jsdoc/check-param-names': 1,
     'jsdoc/check-tag-names': 1,
     'jsdoc/check-types': 1,
