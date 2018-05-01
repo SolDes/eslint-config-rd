@@ -56,6 +56,8 @@ module.exports = {
     'jsdoc/require-returns-description': 1,
     'jsdoc/require-returns-type': 1,
     'node/no-deprecated-api': 'error',
-    'node/process-exit-as-throw': 'error'
+    'node/process-exit-as-throw': 'error',
+    'arrow-body-style': 0, 
+    'radix': 0 
   }
 };
