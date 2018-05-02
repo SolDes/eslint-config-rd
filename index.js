@@ -58,6 +58,7 @@ module.exports = {
     'node/no-deprecated-api': 'error',
     'node/process-exit-as-throw': 'error',
     'arrow-body-style': 0, 
-    'radix': 0 
+    'radix': 0,
+    'no-underscore-dangle': 0
   }
 };
