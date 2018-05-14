@@ -59,6 +59,8 @@ module.exports = {
     'node/process-exit-as-throw': 'error',
     'arrow-body-style': 0, 
     'radix': 0,
-    'no-underscore-dangle': 0
+    'no-await-in-loop': 0,
+    'no-underscore-dangle': 0,
+    'no-restricted-syntax': ["error", "ForInStatement", "LabeledStatement", "WithStatement"]
   }
 };
