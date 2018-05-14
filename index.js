@@ -42,6 +42,7 @@ module.exports = {
   },
   rules: {
     'comma-dangle': ['error', 'never'],
+    'consistent-return': 0,
     'jsdoc/check-param-names': 1,
     'jsdoc/check-tag-names': 1,
     'jsdoc/check-types': 1,
