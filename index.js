@@ -15,9 +15,10 @@ module.exports = {
     'html/html-extensions': ['.html', '.ejs']
   },
   globals: {
-    'document': false,
-    'navigator': false,
-    'window': false,
+    'filterXSS': true,
+    'document': true,
+    'navigator': true,
+    'window': true,
     'FileReader': true,
     'alert': true,
     'jQuery': true,
@@ -41,8 +42,10 @@ module.exports = {
     'Vivus': true
   },
   rules: {
+    'arrow-body-style': 0, 
     'comma-dangle': ['error', 'never'],
     'consistent-return': 0,
+    'func-names': 0,
     'jsdoc/check-param-names': 1,
     'jsdoc/check-tag-names': 1,
     'jsdoc/check-types': 1,
@@ -58,12 +61,16 @@ module.exports = {
     'jsdoc/require-returns-type': 1,
     'node/no-deprecated-api': 'error',
     'node/process-exit-as-throw': 'error',
-    'arrow-body-style': 0, 
-    'radix': 0,
     'no-await-in-loop': 0,
     'no-console': 0,
     'no-nested-ternary': 0,
     'no-underscore-dangle': 0,
-    'no-restricted-syntax': ["error", "ForInStatement", "LabeledStatement", "WithStatement"]
+    'no-restricted-syntax': ['error', 'ForInStatement', 'LabeledStatement', 'WithStatement'],
+    radix: 0,
+    'space-before-function-paren': ['error', {
+      anonymous: 'ignore',
+      named: 'ignore',
+      asyncArrow: 'always'
+    }]
   }
 };
