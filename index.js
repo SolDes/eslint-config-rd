@@ -32,6 +32,8 @@ module.exports = {
     'CKEDITOR': true,
     'MediumEditor': true,
     'MediumButton': true,
+    'moment': true,
+    'MutationObserver': true,
     'Bloodhound': true,
     'Mustache': true,
     'Handlebars': true,
