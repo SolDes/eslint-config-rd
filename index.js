@@ -66,6 +66,7 @@ module.exports = {
     'no-await-in-loop': 0,
     'no-console': 0,
     'no-nested-ternary': 0,
+    'no-param-reassign': ['error', { props: false }]
     'no-underscore-dangle': 0,
     'no-restricted-syntax': ['error', 'ForInStatement', 'LabeledStatement', 'WithStatement'],
     radix: 0,
