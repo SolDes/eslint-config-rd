@@ -44,7 +44,7 @@ module.exports = {
     'Vivus': true
   },
   rules: {
-    'arrow-body-style': 0, 
+    'arrow-body-style': 0,
     'comma-dangle': ['error', 'never'],
     'consistent-return': 0,
     'func-names': 0,
@@ -66,7 +66,7 @@ module.exports = {
     'no-await-in-loop': 0,
     'no-console': 0,
     'no-nested-ternary': 0,
-    'no-param-reassign': ['error', { props: false }]
+    'no-param-reassign': ['error', { props: false }],
     'no-underscore-dangle': 0,
     'no-restricted-syntax': ['error', 'ForInStatement', 'LabeledStatement', 'WithStatement'],
     radix: 0,
