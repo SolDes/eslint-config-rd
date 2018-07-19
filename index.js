@@ -62,13 +62,23 @@ module.exports = {
     'jsdoc/require-param-type': 1,
     'jsdoc/require-returns-description': 1,
     'jsdoc/require-returns-type': 1,
+    'jsx-a11y/anchor-is-valid': 0,
+    'jsx-a11y/label-has-for': ['error', {
+      components: [],
+      required: {
+        some: ['nesting', 'id']
+      },
+      allowChildren: false
+    }],
     'node/no-deprecated-api': 'error',
     'node/process-exit-as-throw': 'error',
     'no-await-in-loop': 0,
     'no-console': 0,
     'no-nested-ternary': 0,
     'no-param-reassign': ['error', { props: false }],
+    'no-script-url': 0,
     'no-underscore-dangle': 0,
+    'no-unused-vars': ['error', { args: 'none' }],
     'no-restricted-syntax': ['error', 'ForInStatement', 'LabeledStatement', 'WithStatement'],
     radix: 0,
     'space-before-function-paren': ['error', {
