@@ -22,6 +22,7 @@ module.exports = {
     'FileReader': true,
     'alert': true,
     'jQuery': true,
+    'Blob': true,
     '$': true,
     'XMLHttpRequest': true,
     'contrast': true,
