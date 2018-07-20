@@ -82,6 +82,7 @@ module.exports = {
     'no-unused-vars': ['error', { args: 'none' }],
     'no-restricted-syntax': ['error', 'ForInStatement', 'LabeledStatement', 'WithStatement'],
     radix: 0,
+    'react/jsx-boolean-value': 0,
     'space-before-function-paren': ['error', {
       anonymous: 'ignore',
       named: 'ignore',
