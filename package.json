@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-rd",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "R+D ESLint config, following our AirBnB plus a little magic.",
   "repository": "git@github.com:SolDes/eslint-config-rd.git",
   "author": "Marketing Cloud Solutions Engineering R+D",
