@@ -65,6 +65,7 @@ module.exports = {
     'node/process-exit-as-throw': 'error',
     'no-await-in-loop': 0,
     'no-console': 0,
+    'no-loop-func': 0,
     'no-nested-ternary': 0,
     'no-param-reassign': ['error', { props: false }],
     'no-underscore-dangle': 0,
