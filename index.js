@@ -1,15 +1,17 @@
 module.exports = {
   extends: [
     'eslint-config-airbnb',
+    'plugin:flowtype/recommended'
   ].map(require.resolve),
   env: {
     'es6': true,
     'node': true
   },
   plugins: [
+    'flowtype',
+    'html',
     'jsdoc',
-    'node',
-    'html'
+    'node'
   ],
   settings: {
     'html/html-extensions': ['.html', '.ejs']
@@ -84,6 +86,7 @@ module.exports = {
     'no-restricted-syntax': ['error', 'ForInStatement', 'LabeledStatement', 'WithStatement'],
     radix: 0,
     'react/jsx-boolean-value': 0,
+    'react/prop-types': 0,
     'space-before-function-paren': ['error', {
       anonymous: 'ignore',
       named: 'ignore',
