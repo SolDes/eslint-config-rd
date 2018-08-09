@@ -2,7 +2,7 @@ module.exports = {
   extends: [
     'eslint-config-airbnb',
     'plugin:flowtype/recommended'
-  ].map(require.resolve),
+  ],
   env: {
     'es6': true,
     'node': true
