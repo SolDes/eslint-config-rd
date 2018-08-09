@@ -52,6 +52,7 @@ module.exports = {
     'consistent-return': 0,
     'func-names': 0,
     'global-require': 0,
+    'import/no-named-as-default-member': 0,
     'jsdoc/check-param-names': 1,
     'jsdoc/check-tag-names': 1,
     'jsdoc/check-types': 1,
