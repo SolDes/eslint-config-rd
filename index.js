@@ -1,50 +1,64 @@
 module.exports = {
   extends: [
     'eslint-config-airbnb',
+    'prettier',
+    'prettier/react',
     'plugin:flowtype/recommended'
   ],
   env: {
-    'es6': true,
-    'node': true
+    browser: true,
+    es6: true,
+    node: true
   },
   plugins: [
     'flowtype',
     'html',
     'jsdoc',
-    'node'
+    'json',
+    'node',
+    'prefer-object-spread'
   ],
-  settings: {
-    'html/html-extensions': ['.html', '.ejs']
-  },
   globals: {
-    'filterXSS': true,
-    'document': true,
-    'navigator': true,
-    'window': true,
-    'FileReader': true,
-    'alert': true,
-    'jQuery': true,
-    'Blob': true,
-    '$': true,
-    'XMLHttpRequest': true,
-    'contrast': true,
-    'angular': true,
-    'sessionStorage': true,
-    'localStorage': true,
-    'location': true,
-    'CKEDITOR': true,
-    'MediumEditor': true,
-    'MediumButton': true,
-    'moment': true,
-    'MutationObserver': true,
-    'Bloodhound': true,
-    'Mustache': true,
-    'Handlebars': true,
-    'FormData': true,
-    '_etmc': true,
-    'ga': true,
-    'Prism': true,
-    'Vivus': true
+    filterXSS: true,
+    document: true,
+    navigator: true,
+    window: true,
+    FileReader: true,
+    alert: true,
+    jQuery: true,
+    Blob: true,
+    $: true,
+    XMLHttpRequest: true,
+    contrast: true,
+    angular: true,
+    sessionStorage: true,
+    localStorage: true,
+    location: true,
+    CKEDITOR: true,
+    MediumEditor: true,
+    MediumButton: true,
+    moment: true,
+    MutationObserver: true,
+    Bloodhound: true,
+    Mustache: true,
+    Handlebars: true,
+    FormData: true,
+    _etmc: true,
+    ga: true,
+    Prism: true,
+    Vivus: true
+  },
+  parser: 'babel-eslint',
+  parserOptions: {
+    ecmaVersion: 7,
+    sourceType: 'module',
+    ecmaFeatures: {
+      classes: true,
+      experimentalObjectRestSpread: true,
+      impliedStrict: true,
+      jsx: true,
+      modules: true
+    }
   },
   rules: {
     'arrow-body-style': 0,
@@ -93,5 +107,8 @@ module.exports = {
       named: 'ignore',
       asyncArrow: 'always'
     }]
+  },
+  settings: {
+    'html/html-extensions': ['.html', '.ejs']
   }
 };
