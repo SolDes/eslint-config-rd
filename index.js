@@ -1,9 +1,10 @@
 module.exports = {
   extends: [
     'eslint-config-airbnb',
-    'prettier',
+    'plugin:prettier/recommended',
+    'plugin:vue/recommended',
     'prettier/react',
-    'plugin:flowtype/recommended'
+    'prettier/flowtype'
   ],
   env: {
     browser: true,
@@ -11,6 +12,8 @@ module.exports = {
     node: true
   },
   plugins: [
+    'react',
+    'prettier',
     'flowtype',
     'html',
     'jsdoc',
