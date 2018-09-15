@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-rd",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "R+D ESLint config, following our AirBnB plus a little magic.",
   "repository": "git@github.com:SolDes/eslint-config-rd.git",
   "author": "Marketing Cloud Solutions Engineering R+D",
@@ -19,6 +19,7 @@
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-node": "^7.0.1",
     "eslint-plugin-prefer-object-spread": "^1.2.1",
+    "eslint-plugin-prettier": "^2.6.2",
     "eslint-plugin-react": "^7.11.1",
     "eslint-plugin-vue": "^4.7.1",
     "prettier": "^1.14.2",
