@@ -1,9 +1,7 @@
 module.exports = {
   extends: [
     'eslint-config-airbnb',
-    'plugin:prettier/recommended',
-    'prettier/react',
-    'prettier/flowtype'
+    'plugin:prettier/recommended'
   ],
   env: {
     browser: true,
@@ -11,7 +9,6 @@ module.exports = {
     node: true
   },
   plugins: [
-    'react',
     'prettier',
     'flowtype',
     'html',
@@ -82,14 +79,6 @@ module.exports = {
     'jsdoc/require-param-type': 1,
     'jsdoc/require-returns-description': 1,
     'jsdoc/require-returns-type': 1,
-    'jsx-a11y/anchor-is-valid': 0,
-    'jsx-a11y/label-has-for': ['error', {
-      components: [],
-      required: {
-        some: ['nesting', 'id']
-      },
-      allowChildren: false
-    }],
     'node/no-deprecated-api': 'error',
     'node/process-exit-as-throw': 'error',
     'no-await-in-loop': 0,
@@ -102,8 +91,6 @@ module.exports = {
     'no-unused-vars': ['error', { args: 'none' }],
     'no-restricted-syntax': ['error', 'ForInStatement', 'LabeledStatement', 'WithStatement'],
     radix: 0,
-    'react/jsx-boolean-value': 0,
-    'react/prop-types': 0,
     'space-before-function-paren': ['error', {
       anonymous: 'ignore',
       named: 'ignore',
