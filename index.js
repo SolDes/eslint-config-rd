@@ -10,7 +10,6 @@ module.exports = {
   },
   plugins: [
     'prettier',
-    'flowtype',
     'html',
     'jsdoc',
     'json',
