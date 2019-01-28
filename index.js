@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
     'eslint-config-airbnb-base',
-    'prettier'
+    'plugin:prettier/recommended'
   ],
   plugins: [
     'import',
