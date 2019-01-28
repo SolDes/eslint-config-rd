@@ -1,15 +1,14 @@
 {
   "name": "eslint-config-rd",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "R+D ESLint config, following our AirBnB plus a little magic.",
   "repository": "git@github.com:SolDes/eslint-config-rd.git",
   "author": "Marketing Cloud Solutions Engineering R+D",
   "main": "index.js",
-  "peerDependencies": {
+  "dependencies": {
     "eslint": "^5.12.1",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-config-prettier": "^4.0.0",
-    "eslint-loader": "^2.1.1",
     "eslint-plugin-html": "^5.0.0",
     "eslint-plugin-import": "^2.15.0",
     "eslint-plugin-jsdoc": "^4.1.0",
